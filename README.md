@@ -4,7 +4,7 @@ Welcome to my **LeetCode Solutions** repository!
 
 This repository contains my solutions to **LeetCode** problems, implemented in **Python 3** and accompanied by detailed explanations.
 
-Rather than simply collecting accepted solutions, this repository documents my learning journey through Data Structures and Algorithms. Every problem includes an explanation of the approach, complexity analysis, and the key concepts I learned.
+Rather than simply collecting accepted solutions, this repository documents my journey through **Data Structures and Algorithms**. For each problem, I focus on understanding the underlying pattern, comparing possible approaches, analyzing complexity, and documenting what I learned.
 
 I am currently following the **NeetCode Roadmap**, solving problems topic by topic to build a strong algorithmic foundation.
 
@@ -21,9 +21,9 @@ I am currently following the **NeetCode Roadmap**, solving problems topic by top
 | Difficulty | Solved |
 |------------|-------:|
 | 🟢 Easy | 5 |
-| 🟡 Medium | 2 |
+| 🟡 Medium | 4 |
 | 🔴 Hard | 0 |
-| **Total** | **7** |
+| **Total** | **9** |
 
 ---
 
@@ -41,6 +41,8 @@ leetcode-solutions/
 │
 ├── Medium/
 │   ├── 0049-Group-Anagrams/
+│   ├── 0238-Product-of-Array-Except-Self/
+│   ├── 0271-Encode-and-Decode-Strings/
 │   └── 0347-Top-K-Frequent-Elements/
 │
 ├── Hard/
@@ -59,71 +61,113 @@ leetcode-solutions/
 | 49 | Group Anagrams | 🟡 Medium | Hash Map, Sorting |
 | 88 | Merge Sorted Array | 🟢 Easy | Three Pointers |
 | 217 | Contains Duplicate | 🟢 Easy | Hash Set |
+| 238 | Product of Array Except Self | 🟡 Medium | Prefix & Suffix Products |
 | 242 | Valid Anagram | 🟢 Easy | Frequency Counting |
+| 271 | Encode and Decode Strings | 🟡 Medium | String Parsing, Design |
 | 347 | Top K Frequent Elements | 🟡 Medium | Bucket Sort, Hash Map |
 
 ---
 
 # 🗺️ Learning Roadmap
 
-I am following the **NeetCode Roadmap**, which organizes LeetCode problems by algorithmic patterns instead of difficulty.
+I am currently following the **NeetCode Roadmap**, which organizes problems by important algorithmic patterns rather than only by difficulty.
 
-## ✔️ Completed Topics
+## 🔄 Current Focus
 
-- Arrays & Hashing
+### Arrays & Hashing
 
-## 🔄 Currently Learning
+Concepts practiced so far:
 
-- Arrays & Hashing (Medium Problems)
-
-## ⏳ Upcoming Topics
-
-- Stack
-- Binary Search
-- Sliding Window
-- Linked List
-- Trees
-- Heap / Priority Queue
-- Backtracking
-- Tries
-- Graphs
-- Dynamic Programming
+- Arrays
+- Hash Maps
+- Hash Sets
+- Frequency Counting
+- String Encoding
+- String Parsing
+- Sorting-based grouping
+- Bucket Sort
+- Prefix & Suffix Products
 
 ---
 
-# 📖 README Structure
+## ⏳ Upcoming Topics
 
-Each problem includes a detailed explanation following the same format.
+- Two Pointers
+- Sliding Window
+- Stack
+- Binary Search
+- Linked List
+- Trees
+- Tries
+- Heap / Priority Queue
+- Backtracking
+- Graphs
+- Advanced Graphs
+- Dynamic Programming
+- Greedy
+- Intervals
+- Math & Geometry
+- Bit Manipulation
 
-- 📌 Problem
-- 📝 Examples
-- 🏷️ Difficulty
-- 📚 Topics
-- 💡 Step-by-Step Approach
-- 🔄 Alternative Solutions *(Medium & Hard Problems)*
-- 💻 Solution
-- 🔍 Dry Run
-- 🎯 Key Idea
-- ⏱️ Time Complexity
-- 💾 Space Complexity
-- 📚 What I Learned
+---
 
-The goal is to understand **why** a solution works rather than simply memorizing the code.
+# 📖 Problem README Structure
+
+Each problem folder contains:
+
+```text
+solution.py
+README.md
+```
+
+Each README follows a consistent structure:
+
+1. 📌 Problem
+2. 📝 Examples
+3. 🏷️ Difficulty
+4. 📚 Topics
+5. 💡 Step-by-Step Approach
+6. 🔄 Alternative Solutions *(especially for Medium & Hard problems)*
+7. 💻 Solution
+8. 🔍 Dry Run
+9. 🎯 Key Idea
+10. ⏱️ Time Complexity
+11. 💾 Space Complexity
+12. 📚 What I Learned
+
+The goal is to understand **why an algorithm works**, not simply memorize an accepted solution.
 
 ---
 
 # 🧠 Concepts Practiced
 
+## Data Structures
+
 - Arrays
 - Strings
 - Hash Maps
 - Hash Sets
+
+## Algorithmic Patterns
+
 - Frequency Counting
 - Two Pointers
 - Three Pointers
+- Prefix Products
+- Suffix Products
 - Bucket Sort
 - Sorting
 - In-place Array Modification
+
+## Problem-Solving Techniques
+
+- Complement Lookup
+- Character Frequency Mapping
+- Grouping by Hash Map Keys
+- Length-Prefixed String Encoding
+- Sequential String Parsing
+- Frequency-Based Bucketing
+- Prefix / Suffix Optimization
 
 ---
 
@@ -131,10 +175,12 @@ The goal is to understand **why** a solution works rather than simply memorizing
 
 - Complete the NeetCode Roadmap.
 - Solve LeetCode problems consistently.
-- Strengthen my Data Structures and Algorithms knowledge.
-- Learn common algorithmic patterns.
-- Improve my Python programming skills.
-- Build a high-quality GitHub portfolio.
+- Build strong Data Structures and Algorithms fundamentals.
+- Learn to recognize common algorithmic patterns.
+- Understand multiple approaches to the same problem.
+- Improve time and space complexity analysis skills.
+- Improve my Python problem-solving skills.
+- Build a well-organized GitHub portfolio.
 - Prepare for technical interviews.
 
 ---
@@ -143,22 +189,24 @@ The goal is to understand **why** a solution works rather than simply memorizing
 
 | Category | Count |
 |----------|------:|
-| Total Problems | **7** |
+| Total Problems | **9** |
 | Easy | **5** |
-| Medium | **2** |
+| Medium | **4** |
 | Hard | **0** |
 
 ---
 
 # 🌟 Repository Highlights
 
-- ✅ Well-organized folder structure
+- ✅ Python 3 solutions
+- ✅ Organized by difficulty and problem number
 - ✅ Detailed README for every problem
 - ✅ Step-by-step explanations
 - ✅ Dry Run examples
-- ✅ Complexity analysis
-- ✅ Alternative solutions for Medium and Hard problems
-- ✅ Continuous progress following the NeetCode Roadmap
+- ✅ Key ideas and algorithmic patterns
+- ✅ Time and space complexity analysis
+- ✅ Alternative approaches for more advanced problems
+- ✅ Continuous progress through the NeetCode Roadmap
 
 ---
 
