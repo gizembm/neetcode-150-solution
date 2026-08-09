@@ -21,9 +21,9 @@ I am currently following the **NeetCode Roadmap**, solving problems topic by top
 | Difficulty | Solved |
 |------------|-------:|
 | 🟢 Easy | 5 |
-| 🟡 Medium | 4 |
+| 🟡 Medium | 5 |
 | 🔴 Hard | 0 |
-| **Total** | **9** |
+| **Total** | **10** |
 
 ---
 
@@ -40,6 +40,7 @@ leetcode-solutions/
 │   └── 0242-Valid-Anagram/
 │
 ├── Medium/
+│   ├── 0036-Valid-Sudoku/
 │   ├── 0049-Group-Anagrams/
 │   ├── 0238-Product-of-Array-Except-Self/
 │   ├── 0271-Encode-and-Decode-Strings/
@@ -58,6 +59,7 @@ leetcode-solutions/
 |--:|---------|:----------:|--------------|
 | 1 | Two Sum | 🟢 Easy | Hash Map |
 | 27 | Remove Element | 🟢 Easy | Two Pointers |
+| 36 | Valid Sudoku | 🟡 Medium | Hash Set, Matrix |
 | 49 | Group Anagrams | 🟡 Medium | Hash Map, Sorting |
 | 88 | Merge Sorted Array | 🟢 Easy | Three Pointers |
 | 217 | Contains Duplicate | 🟢 Easy | Hash Set |
@@ -84,9 +86,12 @@ Concepts practiced so far:
 - Frequency Counting
 - String Encoding
 - String Parsing
-- Sorting-based grouping
+- Sorting-based Grouping
 - Bucket Sort
 - Prefix & Suffix Products
+- Matrix Traversal
+- Coordinate Grouping
+- Duplicate Detection
 
 ---
 
@@ -147,6 +152,7 @@ The goal is to understand **why an algorithm works**, not simply memorize an acc
 - Strings
 - Hash Maps
 - Hash Sets
+- Matrices
 
 ## Algorithmic Patterns
 
@@ -158,6 +164,7 @@ The goal is to understand **why an algorithm works**, not simply memorize an acc
 - Bucket Sort
 - Sorting
 - In-place Array Modification
+- Matrix Traversal
 
 ## Problem-Solving Techniques
 
@@ -168,6 +175,8 @@ The goal is to understand **why an algorithm works**, not simply memorize an acc
 - Sequential String Parsing
 - Frequency-Based Bucketing
 - Prefix / Suffix Optimization
+- Duplicate Detection with Hash Sets
+- Mapping Matrix Coordinates to Sub-grids
 
 ---
 
@@ -189,9 +198,9 @@ The goal is to understand **why an algorithm works**, not simply memorize an acc
 
 | Category | Count |
 |----------|------:|
-| Total Problems | **9** |
+| Total Problems | **10** |
 | Easy | **5** |
-| Medium | **4** |
+| Medium | **5** |
 | Hard | **0** |
 
 ---
