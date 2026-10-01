@@ -111,6 +111,26 @@ Python'ın sade sözdizimi sayesinde algoritma problemlerinde dil detaylarından
 
 ---
 
+## 🔍 Kodları Adım Adım İncelemek
+
+Algoritmaların nasıl çalıştığını anlamanın en iyi yollarından biri, kodun her iterasyonda nasıl ilerlediğini gözlemlemek.
+
+Bu repository'deki Python çözümlerini adım adım incelemek için **Python Tutor** kullanılabilir.
+
+Python Tutor sayesinde:
+
+- Değişkenlerin her adımda aldığı değerleri,
+- `list`, `set` ve `dict` gibi veri yapılarının nasıl değiştiğini,
+- Döngülerin her iterasyonunu,
+- Fonksiyonların çalışma sırasını
+
+görsel olarak takip edebilirsiniz.
+
+👉 [Python Tutor ile kodu görselleştir](https://pythontutor.com/visualize.html#mode=edit)
+
+Özellikle yeni bir algoritma veya veri yapısını öğrenirken kodu sadece okumak yerine adım adım çalıştırmak, çözümün mantığını anlamayı oldukça kolaylaştırıyor.
+
+
 ## 📈 İlerleme
 
 **Tamamlanan problem: 1 / 150**
