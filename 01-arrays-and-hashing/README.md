@@ -100,5 +100,6 @@ Hash Map veya Hash Set kullanmak ise bu sorguları ortalama durumda `O(1)` seviy
 | # | Problem | Temel Yaklaşımlar |
 |---|---|---|
 | 1 | Two Sum | Brute Force, Hash Map |
+| 2 | Contains Duplicate| Array, Hash table, Sorting |
 
 Bu tablo bölüm ilerledikçe güncellenecektir.
