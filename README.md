@@ -118,7 +118,7 @@ Python'ın sade sözdizimi sayesinde algoritma problemlerinde dil detaylarından
 ### Arrays & Hashing
 
 - [x] 0001 — Two Sum
-- [ ] 0217 — Contains Duplicate
+- [x] 0217 — Contains Duplicate
 - [ ] 0242 — Valid Anagram
 - [ ] 0049 — Group Anagrams
 - [ ] 0347 — Top K Frequent Elements
