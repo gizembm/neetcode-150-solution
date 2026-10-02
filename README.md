@@ -139,7 +139,7 @@ görsel olarak takip edebilirsiniz.
 
 - [x] 0001 — Two Sum
 - [x] 0217 — Contains Duplicate
-- [ ] 0242 — Valid Anagram
+- [x] 0242 — Valid Anagram
 - [ ] 0049 — Group Anagrams
 - [ ] 0347 — Top K Frequent Elements
 - [ ] Encode and Decode Strings
