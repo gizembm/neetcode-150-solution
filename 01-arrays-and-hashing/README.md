@@ -102,5 +102,6 @@ Hash Map veya Hash Set kullanmak ise bu sorguları ortalama durumda `O(1)` seviy
 | 1 | Two Sum | Brute Force, Hash Map |
 | 2 | Contains Duplicate| Array, Hash table, Sorting |
 | 3 | Valid Anagram| Hash table, String, Sorting |
+| 4 | Group Anagrams| Array, Hash table, String, Sorting |
 
 Bu tablo bölüm ilerledikçe güncellenecektir.

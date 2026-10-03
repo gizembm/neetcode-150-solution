@@ -140,7 +140,7 @@ görsel olarak takip edebilirsiniz.
 - [x] 0001 — Two Sum
 - [x] 0217 — Contains Duplicate
 - [x] 0242 — Valid Anagram
-- [ ] 0049 — Group Anagrams
+- [x] 0049 — Group Anagrams
 - [ ] 0347 — Top K Frequent Elements
 - [ ] Encode and Decode Strings
 - [ ] 0238 — Product of Array Except Self
