@@ -99,9 +99,10 @@ Hash Map veya Hash Set kullanmak ise bu sorguları ortalama durumda `O(1)` seviy
 
 | # | Problem | Temel Yaklaşımlar |
 |---|---|---|
-| 1 | Two Sum | Brute Force, Hash Map |
-| 2 | Contains Duplicate| Array, Hash table, Sorting |
-| 3 | Valid Anagram| Hash table, String, Sorting |
-| 4 | Group Anagrams| Array, Hash table, String, Sorting |
+| 0001 | Two Sum | Brute Force, Hash Map |
+| 0217 | Contains Duplicate| Array, Hash table, Sorting |
+| 0242 | Valid Anagram| Hash table, String, Sorting |
+| 0049 | Group Anagrams| Array, Hash table, String, Sorting |
+| 0347 | Top K Frequent Elements | Frequency Counting, Sorting, Bucket Sort |
 
 Bu tablo bölüm ilerledikçe güncellenecektir.
